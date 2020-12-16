@@ -21,8 +21,8 @@ public class Occurancecharacter {
 			}else {
 				hmap.put(ch,1);
 			}
-			
 		}
+		
 		
 		System.out.println(hmap);
 	}

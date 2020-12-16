@@ -13,7 +13,7 @@ public class Securelogin {
 		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
 		ChromeOptions fo = new ChromeOptions();
 		// accept the certificate
-		fo.setAcceptInsecureCerts(true);
+		//fo.setAcceptInsecureCerts(true);
 		//open the browser
 		driver = new ChromeDriver(fo);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

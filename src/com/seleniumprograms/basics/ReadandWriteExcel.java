@@ -31,13 +31,13 @@ public static void main(String []args) throws IOException{
   String value=sh1.getRow(1).getCell(0).getStringCellValue();
   
   System.out.println(value);
-
+  XSSFSheet sh2=wb.createSheet("TC2");
   
-  sh1.getRow(0).createCell(2).setCellValue("2.41.0");
+  sh2.getRow(0).createCell(2).setCellValue("2.41.0");
   
-  sh1.getRow(1).createCell(2).setCellValue("2.5");
+  sh2.getRow(1).createCell(2).setCellValue("2.5");
   
-
+ 
 
  // here we need to specify where you want to save file
   

@@ -8,11 +8,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
-public class Actionclass {
+import com.seleniumprogram.practice.Privateex;
+
+public class Actionclass extends Privateex {
 
 	static WebDriver driver;
+	
+	void m1() {
+		name();
+	}
 
 	public static void main(String[] args) throws InterruptedException {
+		
+		Privateex ex= new Privateex();
+
 
 		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
 		driver = new ChromeDriver();

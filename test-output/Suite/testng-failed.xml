@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="com.seleniumprograms.testng.RetryListenerClass"/>
-  </listeners>
-  <test name="Test2(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <parameter name="emailId" value="Ponneri@gmail.com"/>
+    <parameter name="fullname" value="Ramesh poneri"/>
+    <parameter name="lastname" value="ponneri"/>
     <classes>
-      <class name="com.seleniumprograms.testng.Test2">
+      <class name="com.seleniumprograms.testng.Parameterization">
         <methods>
-          <include name="test2"/>
+          <include name="tc1"/>
         </methods>
-      </class> <!-- com.seleniumprograms.testng.Test2 -->
+      </class> <!-- com.seleniumprograms.testng.Parameterization -->
     </classes>
-  </test> <!-- Test2(failed) -->
-  <test name="Test3(failed)">
-    <classes>
-      <class name="com.seleniumprograms.testng.Test3">
-        <methods>
-          <include name="m1"/>
-          <include name="m3"/>
-          <include name="m2"/>
-        </methods>
-      </class> <!-- com.seleniumprograms.testng.Test3 -->
-    </classes>
-  </test> <!-- Test3(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

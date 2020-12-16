@@ -8,52 +8,39 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">38</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">21</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Test3</a></td><td class="num">0</td><td class="num attn">6</td><td class="num attn">3</td><td class="num">38</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">1</th><th class="num attn">8</th><th class="num attn">4</th><th class="num">97</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">39</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.seleniumprograms.testng.Test1</td><td><a href="#m0">test1</a></td><td rowspan="1">1590764055385</td><td rowspan="1">12</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Test2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.seleniumprograms.testng.Test2</td><td><a href="#m1">test2</a></td><td rowspan="1">1590764055462</td><td rowspan="1">3</td></tr><tr><th colspan="4">Test2 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.seleniumprograms.testng.Test2</td><td><a href="#m2">test2</a></td><td rowspan="2">1590764055456</td><td rowspan="2">3</td></tr><tr class="skippedeven"><td><a href="#m3">test2</a></td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Test3 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.seleniumprograms.testng.Test3</td><td><a href="#m4">m1</a></td><td rowspan="1">1590764055497</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m5">m2</a></td><td rowspan="1">1590764055509</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m6">m3</a></td><td rowspan="1">1590764055522</td><td rowspan="1">2</td></tr><tr><th colspan="4">Test3 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="6">com.seleniumprograms.testng.Test3</td><td><a href="#m7">m1</a></td><td rowspan="2">1590764055494</td><td rowspan="2">1</td></tr><tr class="skippedeven"><td><a href="#m8">m1</a></td></tr><tr class="skippedeven"><td><a href="#m9">m2</a></td><td rowspan="2">1590764055505</td><td rowspan="2">1</td></tr><tr class="skippedeven"><td><a href="#m10">m2</a></td></tr><tr class="skippedeven"><td><a href="#m11">m3</a></td><td rowspan="2">1590764055513</td><td rowspan="2">1</td></tr><tr class="skippedeven"><td><a href="#m12">m3</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.seleniumprograms.testng.Testcase1</td><td><a href="#m0">m1</a></td><td rowspan="1">1607061344778</td><td rowspan="1">10</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.seleniumprograms.testng.Testcase1</td><td><a href="#m1">m3</a></td><td rowspan="1">1607061344790</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Test1</h2><h3 id="m0">com.seleniumprograms.testng.Test1#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test2</h2><h3 id="m1">com.seleniumprograms.testng.Test2#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.seleniumprograms.testng.Test2.test2(Test2.java:12)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.seleniumprograms.testng.Test2#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.seleniumprograms.testng.Test2.test2(Test2.java:12)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.seleniumprograms.testng.Test2#test2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.seleniumprograms.testng.Test2.test2(Test2.java:12)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test3</h2><h3 id="m4">com.seleniumprograms.testng.Test3#m1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
-	at com.seleniumprograms.testng.Test3.m1(Test3.java:10)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.seleniumprograms.testng.Test3#m2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
-	at com.seleniumprograms.testng.Test3.m2(Test3.java:24)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.seleniumprograms.testng.Test3#m3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
-	at com.seleniumprograms.testng.Test3.m3(Test3.java:17)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.seleniumprograms.testng.Test3#m1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
-	at com.seleniumprograms.testng.Test3.m1(Test3.java:10)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.seleniumprograms.testng.Test3#m1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
-	at com.seleniumprograms.testng.Test3.m1(Test3.java:10)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">com.seleniumprograms.testng.Test3#m2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
-	at com.seleniumprograms.testng.Test3.m2(Test3.java:24)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">com.seleniumprograms.testng.Test3#m2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
-	at com.seleniumprograms.testng.Test3.m2(Test3.java:24)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">com.seleniumprograms.testng.Test3#m3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
-	at com.seleniumprograms.testng.Test3.m3(Test3.java:17)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m12">com.seleniumprograms.testng.Test3#m3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
-	at com.seleniumprograms.testng.Test3.m3(Test3.java:17)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.seleniumprograms.testng.Testcase1#m1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test Started->m1<br/>Test Failed->m1</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Error
+	at com.seleniumprograms.testng.Testcase1.m1(Testcase1.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.seleniumprograms.testng.Testcase1#m3</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Test Started->m3<br/>Test Pass->m3</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

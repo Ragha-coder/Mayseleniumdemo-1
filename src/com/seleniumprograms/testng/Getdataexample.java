@@ -1,12 +1,13 @@
 package com.seleniumprograms.testng;
 
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Test;
 
 public class Getdataexample {
 	
 	@Test(dataProvider="TC1")
-	public void personalDetails(String name,String lastname,String firstname,String emailId) {
+	public void personalDetails( String name,String lastname,String firstname,String emailId) {
 		
 		
 		System.out.println("my lastname  :"+lastname);

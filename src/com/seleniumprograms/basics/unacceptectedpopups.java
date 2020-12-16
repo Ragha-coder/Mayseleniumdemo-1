@@ -15,7 +15,7 @@ public class unacceptectedpopups {
 		System.setProperty("webdriver.chrome.driver", ".//driver//chromedriver.exe");
 		ChromeOptions fo = new ChromeOptions();
 		// set the behaviuor of the alert
-		fo.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.ACCEPT);
+		//fo.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.ACCEPT);
 		// create object to firefox driver, register options class
 		 driver = new ChromeDriver(fo);
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

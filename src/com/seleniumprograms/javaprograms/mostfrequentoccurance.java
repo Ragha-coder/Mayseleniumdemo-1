@@ -25,6 +25,8 @@ public class mostfrequentoccurance {
 			
 		}
 		
+		
+		System.out.println(hmap);
 		int frequent=1;
 		
 		int elements=0;

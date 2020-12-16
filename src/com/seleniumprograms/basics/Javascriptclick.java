@@ -20,6 +20,12 @@ public class Javascriptclick {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
 		driver.manage().window().maximize();
+		
+		/*
+		 * driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
+		 * ((JavascriptExecutor)
+		 * driver).executeAsyncScript("document.getElementById('dummy')");
+		 */
 
 		driver.navigate().to("http://demo.guru99.com/V4/");
 

@@ -19,6 +19,7 @@ public class Alerts {
 		driver = new ChromeDriver();
 		driver.get("https://chercher.tech/practice/practice-pop-ups-selenium-webdriver");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		
 		Thread.sleep(2000);

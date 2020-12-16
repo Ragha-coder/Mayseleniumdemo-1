@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Suite" time-out="500">
+  <test thread-count="5" name="Test" time-out="500">
   <parameter name="lastname" value="ponneri"/>
   <parameter name="firstname" value="Ramesh"/>
   <parameter name="fullname" value="Ramesh poneri"/>
   <parameter name="emailId" value="Ponneri@gmail.com"/>
     <classes>
       <class name="com.seleniumprograms.testng.Parameterization"/>
+       <!--  <class name="com.test.firstpackage.FirstClassInFirstPackage">
+            <methods>
+            <include name="firstTestCase"></include>
+            <include name="secondTestCase"></include>
+            <exclude name="thirdTestCase"></exclude>
+            </methods>
+        </class>     -->
      
     </classes>
   </test> <!-- Test -->

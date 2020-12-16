@@ -32,7 +32,7 @@ public class ExcelReadandWriteData {
 		
 		System.out.println("no of col"+noOfColumns);
 		
-		xs.getRow(0).createCell(0).setCellValue("");
+		//xs.getRow(0).createCell(0).setCellValue("");
 
 		
 		System.out.println(xs.getRow(rowcoun).getCell(cellcoun-1));
